@@ -1,10 +1,11 @@
-<img src="https://cdn.rawgit.com/screeny05/alfred-scn-jira/master/icon.png" style="float:left;" width="102" height="102">
 # alfred-scn-jira
 > Alfred Jira Module
 
-<p style="text-align:center;">
-    <img src="https://cdn.rawgit.com/screeny05/alfred-scn-jira/master/screenshot.jpg" width="580" height="382">
+<p align="center">
+  <img src="https://cdn.rawgit.com/screeny05/alfred-scn-jira/master/screenshot.jpg" width="580" height="382" alt="screenshot"/>
 </p>
+
+
 
 ## Install
 
