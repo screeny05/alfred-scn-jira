@@ -1,0 +1,41 @@
+{
+  "name": "alfred-scn-jira",
+  "version": "0.1.0",
+  "description": "Alfred Jira Module",
+  "license": "MIT",
+  "repository": "screeny05/alfred-scn-jira",
+  "author": {
+    "name": "Sebastian Langer",
+    "email": "sl@scn.cx",
+    "url": "scn.cx"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    "jira"
+  ],
+  "dependencies": {
+    "alfy": "^0.6.0",
+    "clortho": "^1.2.2",
+    "farmhash": "^1.2.1",
+    "is-svg": "^2.1.0",
+    "is-url": "^1.2.2",
+    "pify": "^2.3.0",
+    "request": "^2.79.0",
+    "request-promise-native": "^1.0.3",
+    "svg2img": "^0.2.8",
+    "url-parse": "^1.1.7"
+  }
+}
