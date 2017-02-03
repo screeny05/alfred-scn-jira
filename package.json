@@ -14,7 +14,8 @@
   },
   "scripts": {
     "postinstall": "alfy-init",
-    "preuninstall": "alfy-cleanup"
+    "preuninstall": "alfy-cleanup",
+    "build": "zip -r alfred-scn-jira.alfredworkflow *"
   },
   "files": [
     "index.js",
