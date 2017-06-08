@@ -10,7 +10,7 @@ const cachedIssues = alfy.cache.get(cacheId);
 if(cachedIssues){
     formatUsearch(cachedIssues, query);
 } else {
-    request('usearch/1/search', { q: query }).then(res => {
+    request('internal/2/productsearch/search', { q: query }).then(res => {
         if(res.some(qsItem => qsItem.items.length > 0)){
             alfy.cache.set(cacheId, res);
         }
